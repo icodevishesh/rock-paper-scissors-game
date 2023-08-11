@@ -1,0 +1,118 @@
+body{
+    background-color:rgb(25, 25, 25);
+    color: white;
+    font-family: monospace;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.game-title{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+.move-icon{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+.move-icon-js{
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+}
+.moves-button{
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(255, 242, 117);
+    transition: all 0.2s ease-in-out;
+    border-radius: 60px;
+    cursor: pointer;
+}
+.moves-button:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgba(200, 255, 0, 0.4);
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+.moves{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.score{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.reset-button{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 15px;
+    background-color: rgb(255, 242, 117);
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.reset-button:hover{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgba(200, 255, 0, 0.4);
+}
+.Reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen {
+    .moves-button{
+        background-color: transparent;
+        width: 90px;
+        height: 90px;
+        border: 2px solid rgb(255, 242, 117);
+        transition: all 0.2s ease-in-out;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    .moves-button:hover{
+        color: rgb(0, 0, 0);
+        box-shadow: 0 5px 15px rgba(200, 255, 0, 0.4);
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .game-title{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 65px;
+    }
+    .move-icon-js{
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+    }
+    .reset-button:hover{
+        color: rgb(0, 0, 0);
+        box-shadow: 0 5px 15px rgba(200, 255, 0, 0.4);
+    }
+}
